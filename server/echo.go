@@ -38,6 +38,6 @@ type echoImpl struct{}
 func (echoImpl) ConvertSint64(ctx context.Context, req *echo.ConvertSint64Request) (*echo.ConvertSint64Response, error) {
 	return &echo.ConvertSint64Response{
 		Message: req.Message,
-		Num:     req.Num,
+		Num:     123, // Return 246
 	}, nil
 }

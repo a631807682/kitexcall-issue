@@ -19,6 +19,12 @@ WARNING: sonic only supports Go1.16~1.22 && CPU amd64, but your environment is n
 [JSON-TO-PROTOBUF] convert failed: sonic decode json bytes failed
 [JSON-TO-PROTOBUF] dismatched type: param isn't intType
 WARNING: sonic only supports Go1.16~1.22 && CPU amd64, but your environment is not suitable
+[Status]: Success
+{
+    "message": "test",
+    "num": 246
+}
+WARNING: sonic only supports Go1.16~1.22 && CPU amd64, but your environment is not suitable
 [Status]: Failed
 [ServerError]: RPC call failed: missing method: Method1 in service
 WARNING: sonic only supports Go1.16~1.22 && CPU amd64, but your environment is not suitable
