@@ -1,0 +1,18 @@
+syntax = "proto3";
+package echo;
+
+option go_package = "echo";
+
+message ConvertSint64Request {
+  string message = 1;
+  sint64 num = 2;
+}
+
+message ConvertSint64Response {
+  string message = 1;
+  sint64 num = 2;
+}
+
+service Echo {
+  rpc ConvertSint64 (ConvertSint64Request) returns (ConvertSint64Response) {}
+}

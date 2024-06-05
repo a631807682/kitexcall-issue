@@ -1,0 +1,18 @@
+syntax = "proto3";
+package multiple;
+
+option go_package = "multiple";
+
+message Request{
+}
+
+message Response{
+}
+
+service Multiple1 {
+  rpc Method1 (Request) returns (Response) {}
+}
+
+service Multiple2 {
+  rpc Method2 (Request) returns (Response) {}
+}
